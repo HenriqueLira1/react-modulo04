@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f2;
+    color: #3e3e3e;
+    font-family: Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+header {
+    background: #4a90e2;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75em 3em;
+    font-weight: bold;
+}
+
+/** Typography */
+
+/** Layout */
+
+hr {
+    border-style: solid;
+    color: #eee;
+    margin: 2em 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 850px;
+}
+
+.post {
+    border-radius: 0.5em;
+    margin: 1.5em;
+    padding: 1.5em;
+    background: #fff;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date {
+    color: #979797;
+}
+
+.post-author {
+    width: 85%;
+}
+
+.post-content {
+    margin: 2em 0;
+}
+
+.post-content p {
+    margin: 1em 0;
+}
+
+.comment {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.profile-picture {
+    width: 10%;
+}
+
+.profile-picture img {
+    width: 100%;
+    border-radius: 5rem;
+}
+
+.comment-text {
+    width: 85%;
+    padding: 1em;
+    border-radius: 2em;
+    background: #eee;
+}
